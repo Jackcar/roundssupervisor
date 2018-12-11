@@ -1,0 +1,258 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0001')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0001')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0001",
+        "PlantName": "SASKPOWER - SHAND",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0001')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0002')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0002')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0002",
+        "PlantName": "SaskPower - Poplar River",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0002')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0003')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0003')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0003",
+        "PlantName": "SaskPower - Northern Hydro",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0003')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0004')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0004')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0004",
+        "PlantName": "SaskPower - Boundary Dam",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0004')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0005')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0005')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0005",
+        "PlantName": "SaskPower - Western Plants",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0005')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0006')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0006')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0006",
+        "PlantName": "SASKPOWER - RENEWABLE & DISTRI",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0006')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0007')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0007')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0007",
+        "PlantName": "SaskPower - Regina",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0007')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0008')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0008')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0008",
+        "PlantName": "SASKPOWER - WEYBURN",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0008')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0009')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0009')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0009",
+        "PlantName": "SaskPower - Saskatoon",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0009')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0010')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0010')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0010",
+        "PlantName": "SASKPOWER - SWIFT CURRENT",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0010')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0011')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0011')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0011",
+        "PlantName": "SaskPower - Prince Albert",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0011')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0012')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0012')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0012",
+        "PlantName": "SaskPower - North Battleford",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0012')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0014')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0014')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0014",
+        "PlantName": "SaskPower - Regina  IT&S",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0014')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0015')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0015')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0015",
+        "PlantName": "SASKPOWER",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0015')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0020')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0020')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0020",
+        "PlantName": "SASKPOWER - CUSTOMER SERVICES",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0020')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0100')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0100')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "0100",
+        "PlantName": "SASKPOWER",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('0100')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('2000')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('2000')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "2000",
+        "PlantName": "NORTHPOINT ENERGY SOLUTIONS",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('2000')/PlantsToSubGroups"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('3000')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('3000')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.Plants"
+        },
+        "Plant": "3000",
+        "PlantName": "SASKPOWER INTERNATIONAL",
+        "PlantsToSubGroups": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/PlantsSet('3000')/PlantsToSubGroups"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=1,Plant='0001')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=1,Plant='0001')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.RoundSubGroup"
+        },
+        "SubGroupNum": 1,
+        "SubGroupDesc": "PROCESS OPERATOR",
+        "Plant": "0001",
+        "RoundSubGroupToRounds": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=1,Plant='0001')/RoundSubGroupToRounds"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=2,Plant='0001')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=2,Plant='0001')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.RoundSubGroup"
+        },
+        "SubGroupNum": 2,
+        "SubGroupDesc": "FACILITY OPERATOR",
+        "Plant": "0001",
+        "RoundSubGroupToRounds": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=2,Plant='0001')/RoundSubGroupToRounds"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "id": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=3,Plant='0010')",
+          "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=3,Plant='0010')",
+          "type": "ZPM_ROUNDSSUPERVISOR_SRV.RoundSubGroup"
+        },
+        "SubGroupNum": 3,
+        "SubGroupDesc": "Moose Jaw Crew",
+        "Plant": "0010",
+        "RoundSubGroupToRounds": {
+          "__deferred": {
+            "uri": "http://saphgx.saskpower.sk.ca:8040/sap/opu/odata/sap/ZPM_ROUNDSSUPERVISOR_SRV/RoundSubGroupSet(SubGroupNum=3,Plant='0010')/RoundSubGroupToRounds"
+          }
+        }
+      }
+    ]
+  }
+}

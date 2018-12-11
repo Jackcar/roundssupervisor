@@ -1,0 +1,92 @@
+.noPadding {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.errorColor{
+	color: red;
+}
+
+.hideIcon{
+	display:none!important;
+}
+
+.wordwrap {
+	white-space: pre-wrap; /* CSS3 */
+	white-space: -moz-pre-wrap; /* Firefox */
+	white-space: -pre-wrap; /* Opera <7 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* IE */
+}
+
+.item-header {
+    /* padding-right: 5px; */
+    font-weight: bold;
+    font-size: 16px;
+    color: #007cc0;
+}
+
+.listKey{
+	color:black !important;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.cardNumber {
+	font-size: 5em;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardHover:hover {
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardFooter {
+	color: #666666;
+	font: garamond;
+}
+
+.cardHeaderMain {
+	color: white;
+	background: #009de0;
+	position: absolute;
+	top: 0.6em;
+	left: 40%;
+}
+
+.cardHeaderSub {
+	color: #666666;
+	font-size: 0.575rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.iconLeft {
+	position: absolute;
+	top: 1em;
+	right: 1.5em;
+}
+
+.centertext {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+  
+.flower{
+		position: absolute;
+    right: -30em;
+}
+
+.plantsLabel{	
+	color: #007CC0!important;
+	margin-left:0.8em!important;
+	margin-top:0.5em!important;
+	margin-bottom:0em!important;
+}
+
+.selected{
+  border-left: 0.7rem solid #007CC0;
+  transition: border-left 0.5s ease;
+}

@@ -1,0 +1,45 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+<Dialog showHeader="false" title=""  width="100%" stretch="true" contentHeight="100%" >
+    <Page title="" showHeader="true"   width="100%" stretch="true" contentHeight="100%">
+    	<customHeader>
+			<Bar>
+					<contentLeft>
+							<Button visible="{/isNotPhone}" press="closeDetailDialog" icon="sap-icon://arrow-left"/>
+					</contentLeft>
+						
+					<contentMiddle>
+							<Text text="{/detailsTbData/tbLabel} {/dateRange}" maxLines="2" wrapping="true" textAlign="Center" />
+					</contentMiddle>
+			</Bar>
+		</customHeader>
+	
+		<content width="100%" >
+			<SearchField liveChange="onDetailFilter" width="100%" placeholder="Enter any attribute to filter" showSearchButton="false" /> 
+         	<core:HTML width="100%" id="detailTableContainer"/>
+    	</content>
+    	
+    	<footer >
+					<Bar>
+					
+						<contentLeft>
+							 <MenuButton id="menuSortButton" text="Sort" icon="">
+                                <menu>
+                                    <Menu items="{/detailMobileSortItems}" itemSelected="sortMobileList" >
+                                        <items>
+                                            <MenuItem text="{label}" key="{position}" />
+                                        </items>
+                                    </Menu>
+                                </menu>
+        					</MenuButton>
+						</contentLeft>
+						
+						<contentRight>
+							<Button visible="{/isPhone}" text="Close" icon="sap-icon://sys-cancel" press="closeDetailDialog" />
+						</contentRight>
+
+					</Bar>
+		</footer>
+    </Page>
+    
+</Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,108 @@
+{{#if isPhone}} 
+  {{#if listData}}
+  <!-- markup for mobile list -->
+  <div class="accordian">
+  
+  	
+    <ul style=" padding-left: 0px !important;">
+      <li class="active">
+        <ul id='detailList1' style=" padding-left: 0px !important;">
+
+			<!-- mobile List items -->
+          {{#each listData}}
+          <li id="li-id-{{@index}}">
+            <a href="#">
+              <table width='100%'>
+                {{#each this}}
+
+                <tr>
+                  <td width='40%' class="listKey">{{label}}</td>
+                  <td width='2%'>:</td>
+                  <td colspan="2">{{value}}</td>
+                  {{#if showNav}} 
+                 	 <td width="5%" rowspan="6"> 
+                 	 	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" ></span>  
+                 	 </td>
+                  {{/if}}
+                </tr>
+                
+                {{/each}}
+                
+              
+              </table>
+            </a>
+          </li>
+          	
+          	<!--  List Item details-->
+          	  <!-- we generate details table per row here if detailsArr object exist-->
+				{{#if ../detailsArr}}
+				 <div id="detail-li-id-{{@index}}" class="well" style="display:none;margin:0px;padding:0.5em;background:#e3e3e3">
+					<ul style="padding-left: 0px !important;" class="detailClass">
+						 {{#getDetailList @index ../detailsArr}} {{/getDetailList }} 
+					</ul>
+				  </div>
+				{{/if}}
+          <!--  -->
+          
+          {{/each}}
+          
+          
+
+      </ul>
+
+    </li>
+    </div>
+    {{else}}
+         <center><h3>No Data</h3> </center>
+    {{/if}} 
+{{else}}
+
+{{#if tableData}}
+<!-- markup for desktop table -->
+<table id='detailTb1' class="table table-hover table-striped table-bordered">
+
+  <tr>
+  <!-- Table headers -->
+    {{#each tableHeads}}
+    	<th id='sort-icon-{{@index}}'>
+    		<span class="{{isFirstColumn @index}}" aria-hidden="true"></span> 
+    		{{this}}
+    	</th>
+    {{/each}}
+  </tr>
+  
+  <!-- Table rows -->
+  {{#each tableData}}
+	  <tr id="tr-id-{{@index}}">
+	   
+	    {{#each this}}
+	    	{{#isExpandable @index expand}} {{/isExpandable }}	
+	  		
+	    	<td>{{val}}</td>
+	    {{/each}}
+	  </tr>
+	  
+	  <!-- we generate details table per row here if detailsArr object exist-->
+	{{#if ../detailsArr}}
+	
+	  	<tr id="detail-tr-id-{{@index}}" class="detailClass">
+      		<td colspan='10' style="display:none; "> 
+          		<div class="well" style="margin:0px;padding:0px;">
+             		<table class="table" style="margin-bottom:0px;background:#e3e3e3">
+             		  {{#getDetailTable @index ../detailsArr}} {{/getDetailTable }} 
+             		</table>
+             	</div>
+             </td>
+         </tr>
+     
+   {{/if}}
+    <!-- end -->
+  
+  {{/each}}
+</table>
+
+ {{else}}
+        <center><h3>No Data</h3> </center>
+    {{/if}} 
+    
+{{/if}}

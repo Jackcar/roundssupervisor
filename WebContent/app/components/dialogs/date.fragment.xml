@@ -1,0 +1,38 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+<Dialog showHeader="true" title="Search"  >
+
+    <content >
+        
+				<VBox width="100%" >
+			
+					<Select selectedKey="{/selectedRange}" change="onRangeChange" width="100%" class="sapUiContentPadding">
+						<items>
+							<core:Item key="yesterday" text="Yesterday" />
+							<core:Item key="lastweek" text="Last Week" />
+							<core:Item key="last2weeks" text="Last 2 Weeks" />
+							<core:Item key="last4weeks" text="Last 4 Weeks" />
+							<core:Item key="custom" text="Custom" />
+						</items>
+					</Select>
+				
+					<Label id='startDateLabel' text="Start Date"  />
+					<DatePicker value="{/searchFromDate}" valueFormat="yyyyMMdd"
+									change="onFromDateChange" enabled="{/showRange}" maxDate="{/fromMaxDate}" placeholder="select date" />
+					<Label id='endDateLabel' text="End Date (max 31 days from start date)" />
+					<DatePicker value="{/searchToDate}" valueFormat="yyyyMMdd"
+									 enabled="{/showRange}" maxDate="{/toMaxDate}" minDate="{/toMinDate}" placeholder="select date"  />
+		
+					<Text text="{/dateErrMsg}" visible="{/isDateError}" class="errorColor" />
+			</VBox>
+		
+    </content>
+    
+    <beginButton id='detailFooter'>
+        <Button text="Search" icon="sap-icon://search" press="customDateSearch" />
+    </beginButton>
+     <endButton id='detailFooter'>
+        <Button text="Close" icon="sap-icon://sys-cancel" press="closeDateDialog" />
+    </endButton>
+    
+</Dialog>
+</core:FragmentDefinition>
